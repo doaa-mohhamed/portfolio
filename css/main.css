@@ -171,12 +171,9 @@ nav .links a:hover {
 
 .resume h2 {
     padding: 29px;
-    margin-bottom: 19px;
+    padding-top: 10px;
+    margin-bottom: 2px;
     text-align: center;
-}
-
-.resume .download-btn {
-    height: 9em;
 }
 
 .resume .download-btn .resume-btn {
@@ -186,10 +183,6 @@ nav .links a:hover {
     padding: 15px;
     margin: 10px;
     color:#aaa9a5
-}
-
-.resume .download-btn .resume-btn:hover {
-    transform: scale(1.1);
 }
 
 .education,
