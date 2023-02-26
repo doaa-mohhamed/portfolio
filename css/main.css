@@ -188,6 +188,9 @@ nav .links a:hover {
     color:#aaa9a5
 }
 
+.resume .download-btn .resume-btn:hover {
+    transform: scale(1.1);
+}
 
 .education,
 .experience {
