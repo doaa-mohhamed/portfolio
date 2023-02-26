@@ -1,0 +1,404 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*************** General Formats *************/
+
+* {
+    font-family: "AraJozoor-Regular";
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-transform: uppercase; 
+    margin: 0 auto;            
+	color: #aaa9a5;
+}
+
+hr {
+    margin: 0;
+}
+
+section {
+    padding: 46px 20px;
+}
+
+.container-up {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.slider {
+    background: url("../images/boguslaw-nowak-D5JICD4pg2o-unsplash.jpg");
+    background-size: cover;
+    max-height: 300px;
+}
+
+.intro {
+    text-align: center;
+    padding: 45px;
+}
+
+.intro span {
+    color: #d2978d;
+    font-size: 1.1em;
+    font-weight: 550;
+    position: relative;
+    right: 94px;
+    bottom: 5px;
+    text-transform: capitalize;
+}
+
+.intro h3 {
+    color: #e1d6d5;
+    width: 285px;
+    font-size: 2em;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    text-shadow: -2px 0px 1px #333,
+                0px 0px 1px #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.intro .main-btn {
+    color: #5c39379c;
+    background-color: #ffffff6e;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0.75em 0.95em;
+    display: inline-block;
+    border: 1.5px solid #FFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 40px;
+    transition: .5s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    background-color: #ae9394;
+
+}
+
+nav .logo {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #FFF;
+    text-shadow: -1px 0px 1px #333;
+}
+
+nav .links a {
+    color: #fedbbf;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 10px;
+}
+
+nav .links a:hover {
+    color: #FFF;
+}
+
+.my-skills {
+    background-color: #e2d5cd87;
+    min-height: 300px;
+    padding-bottom: 24px;
+    overflow: hidden;
+}
+
+.my-skills .skills-title h2 {
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.my-skills .skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.my-skills .skills .progress {
+    width: 100%;
+    overflow: hidden;
+}
+
+.my-skills .skills .progress div {
+    float: left;
+    width: 22em;
+    height: 1.5em;
+    background-color: #d7d5cb;
+    margin: 15px 60px;
+    margin-left: 10px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.my-skills .skills .progress h3 {
+    display: inline;
+    padding-left: 2em;
+    color: #a76f6aa3;
+    letter-spacing: 1px;
+}
+
+.my-skills .skills .progress span {
+    background-color:#ae9394a6;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+}
+
+.resume {
+    background-color: #faebd76e;
+    max-height: 12em;
+    text-align: center;
+}
+
+.resume h2 {
+    padding: 29px;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.resume .download-btn {
+    height: 9em;
+}
+
+.resume .download-btn .resume-btn {
+    text-transform: uppercase;
+    border: 1px solid #333;
+    background: none;
+    padding: 15px;
+    margin: 10px;
+    color:#aaa9a5
+}
+
+
+.education,
+.experience {
+    background-color: #f0e9e5;
+}
+
+.education h2,
+.experience h2,
+.portfolio h2 {
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.education .paragraph,
+.experience .paragraph {
+    padding: 1em;
+    padding-top: 0em;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    line-height: 25px;
+    color: #9a9994;
+    text-align: center;
+}
+
+.education .paragraph span {
+    color:#c6a0af;
+    font-weight: 700;
+    background-color: #faebd76e;
+}
+
+.portfolio {
+    background-color: #fdf6ee;
+}
+
+.works {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1% 5%;
+}
+
+.portfolio .works > div {
+    float: left;
+    display: block;
+    width: 20em;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+
+.portfolio .works > div:hover {
+    transform: scale(1.1);
+}
+
+.portfolio .works img {
+    width: 75%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.contact-me {
+    overflow: hidden;
+    background-color: #decfc89c;
+    padding: 20px;
+}
+
+.contact-me .media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me .media .contact-info {
+    width: 45%;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.contact-me .media .contact-info a{
+    font-size: 1.4em;
+}
+
+.contact-me .media .contact-info .phone,
+.contact-me .media .contact-info .mail {
+    height: 20px;
+    padding: 10px;
+}
+
+.contact-me .media .contact-media {
+    width: 50%;
+    padding-top: 69px;
+    text-align: right;
+}
+
+.contact-me .media .contact-media a {
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+
+
+@media (max-width: 1023px) {
+    h2 {
+        font-size: 1.3em;
+    }
+
+    section {
+        padding: 23px 20px;
+    }
+
+    .container-up {
+        max-width: 912px;
+    }
+
+    nav {
+        padding: 0.5em 1.5em;
+    }
+
+    nav .logo {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .my-skills .skills {
+        display: inline;
+    }
+
+    .my-skills .skills .group-one h3 {
+        padding-right: 49px;
+    }
+
+    .my-skills .skills .progress h3 {
+        font-size: 1.1em;
+        padding-left: 1em;
+        float: left;
+    }
+
+    .portfolio .works > div {
+        width: 6em;
+        padding: 5px;
+    }
+
+    .portfolio .works img {
+        width: 100%;
+        height: 68px;
+    }
+
+    
+    .contact-me {
+        padding: 10px;
+    }
+    
+    .media .contact-info .mail {
+        overflow: visible;
+    }
+
+    .contact-me .media .contact-info {
+        padding: 5px;
+        padding-top: 10px;
+    }
+    
+    .contact-me .media .contact-info a {
+        font-size: 1.2em;
+    }
+    
+    .contact-me .media .contact-info .phone,
+    .contact-me .media .contact-info .mail  {
+        overflow: visible;
+        padding: 2px;
+        font-size: 9px;
+    }
+    
+    .contact-me .media .contact-media {
+        padding-top: 34px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 89px;
+    }
+
+    .contact-me .media .contact-media a {
+        font-size: 1.5em;
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    nav .links a {
+        font-size: 1.2em;
+    }
+
+    .works {
+        flex-wrap: nowrap;
+        margin: 5px auto;
+    }
+
+    .contact-me .media .contact-info a {
+        font-size: 0.72em;
+    }
+
+    .contact-me .media .contact-media {
+        padding-left: 69px;
+    }
+
+    .contact-me .media .contact-info .phone,
+    .contact-me .media .contact-info .mail {
+        overflow: visible;
+        padding: 0px;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #bdaa91;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../images/joao-marcelo.jpg");
+    background-size: cover;
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+header .paragraph {
+    width: 487px;
+    height: 350px;
+    background-color: #333;
+    border: 10px solid #dacfc0;
+    margin: 66px auto;
+    padding: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFF;
+}
+
+header .paragraph h1 {
+    text-transform: capitalize;
+}
+
+header .paragraph p {
+    font-size: 1.3em;
+    line-height: 25px;
+}
+
+.our-menu {
+    background-color: #baa88fb3;
+    width: 100%;
+    min-height: 85em;
+    padding: 30px;
+}
+
+.our-menu h1 {
+    color: #FFF;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 25px; 
+    letter-spacing: 1px;
+}
+
+.our-menu .food-list {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1% 5%;
+}
+
+.our-menu .food-list > div {
+    width: 30.3333%;
+    margin: 50px auto;
+}
+
+.our-menu .food-list img {
+    width: 100%;
+    height: 300px;
+}
+
+.our-menu .food-list h1 {
+    text-transform: uppercase;
+    color: #526f7c;
+}
+
+.our-menu .food-list p {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 25px;
+    color: #FFF;
+    padding-bottom: 15px;
+}
+
+.our-menu .food-list h2 {
+    color: #7396a6
+}
+
+.brief {
+    background-color: #c4b49e;
+    width: 100%;
+    height: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brief .about-food {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brief .about-food img {
+    width: 570px;
+    height: 570px;
+    position: relative;
+    bottom: 29px;
+    border-radius: 295px;
+}
+
+.brief .text {
+    color: #dee4e2;
+    padding: 125px 44px;
+}
+
+.brief .text h1 {
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.brief .text p {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #baa88fb3;
+    width: 100%;
+    height: 25em;
+    padding: 90px 95px;
+}
+
+.restaurant-name {
+    display: flex;
+    margin: 10px 400px;
+    padding: 15px;
+}
+
+.restaurant-name img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.restaurant-name h1 {
+    line-height: 30px;
+    padding-left: 10px;
+    color: #dee4e2;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    padding: 10px;
+    font-size: 1.3em;
+    color: #7396a6;
+    text-transform: uppercase;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: #FFF;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 5px;
+    background-color: #7396a6;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 500px;
+    }
+
+    header .paragraph {
+        width: 244px;
+        height: 175px;
+        margin: 33px auto;
+        padding: 15px;
+    }
+
+    header .paragraph h1 {
+        font-size: 1.4em;
+        margin: 11px 0;
+    }
+
+    header .paragraph p {
+        font-size: 0.69em;
+        line-height: 13px;
+    }
+
+    .our-menu {
+        min-height: 45em;
+        padding: 15px;
+    }
+
+    .our-menu .food-list > div {
+        width: 47.334%;
+        margin: 16px auto;
+    }
+
+    .our-menu .food-list img {
+        height: 142px;
+    }
+
+    .our-menu .food-list h1 {
+        font-size: 0.8em;
+        margin: 5px 0;
+    }
+
+    .our-menu .food-list p {
+        font-size: 1em;
+        line-height: 16px;
+    }
+
+    .our-menu .food-list h2 {
+        font-size: 1em;
+    }
+
+    .brief {
+        height: 9em;
+    }
+
+    .brief .about-food img {
+        width: 175px;
+        height: 175px;
+        position: relative;
+        bottom: 20px;
+        right: 5px;
+    }
+
+    .brief .text {
+        padding: 3px 8px;
+    }
+
+    .brief .text h1 {
+        font-size: 1.2em;
+    }
+
+    .brief .text p {
+        font-size: 0.8em;
+    }
+
+    footer {
+        height: 18em;
+        padding: 45px 48px;
+    }
+
+    .restaurant-name {
+        margin: 5px 22px;
+    }
+
+    .restaurant-name img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .restaurant-name h1 {
+        line-height: 15px;
+        font-size: 1.7em;
+    }
+
+    .links a {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+
+    .social-icons {
+        margin-top: 13px;
+    }
+
+    .social-icons a {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 1023px){
+    .brief .about-food img {
+        width: 170px;
+    }
+}
